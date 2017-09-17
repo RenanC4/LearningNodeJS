@@ -1,0 +1,7 @@
+var http = require('http');  
+
+http.createServer(function( req , ans){ //req= requisition, ans = answer  
+ans.writeHead(300,{'Content-Type':'text/plain'}); 		
+res.end("Hello World"); 		   }).listen(8080); //you can put your webpage here and you can change the door 8080 to whathever you prefer
+console.log('Server runing at 8080');  // console message
+console.log('To exit and stop server press ctrl + c'); //console message
